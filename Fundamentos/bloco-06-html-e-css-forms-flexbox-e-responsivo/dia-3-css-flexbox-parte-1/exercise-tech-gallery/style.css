@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+/* exercicio 1  */
+.header {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+ align-items: center;
+ background-color: black;
+ color: white;
+}
+.sectionPar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.imagens-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.grid-imagens {
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-items: stretch;
+}
+.imagens {
+  background-color: antiquewhite;
+  border-radius: 7px;
+  margin-top: 5px;
+  margin-left: 5px;
+  
+}
+h4 {
+  display: flex;
+  justify-content: center;
+}
+hr {
+  display: flex;
+  margin-left: 250px;
+  margin-right: 250px;
+  height: 3px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 10px;
+}
+.header-img {
+  width: 70px;
+}
+
+.gallery-img {
+  width: 150px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
